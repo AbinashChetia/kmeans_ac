@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-class KNearNeighbors:
+class KMeans:
     def __init__(self, k):
         self.k = k
         self.centres = None
